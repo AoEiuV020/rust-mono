@@ -1,0 +1,13 @@
+[package]
+name = "static-app"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "static-app"
+path = "src/main.rs"
+
+[dependencies]
+common = { path = "../../packages/common" }
+mathlib = { path = "../../packages/mathlib" }
+stringlib = { path = "../../packages/stringlib" }

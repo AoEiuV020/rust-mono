@@ -1,0 +1,12 @@
+[package]
+name = "dynamic-app"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "dynamic-app"
+path = "src/main.rs"
+
+[dependencies]
+libloading = { workspace = true }
+libc = { workspace = true }
